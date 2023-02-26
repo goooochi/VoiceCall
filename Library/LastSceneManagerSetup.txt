@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scenes/MainScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
