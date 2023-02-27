@@ -1,0 +1,622 @@
+Unity Editor version:    2021.3.15f1 (e8e88683f834)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51128
+Successfully changed project path to: /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall
+/Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4470310272] Host "[IP] 192.168.11.3 [Port] 0 [Flags] 2 [Guid] 481051439 [EditorId] 481051439 [Version] 1048832 [Id] OSXEditor(0,YuukinoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4470310272] Host "[IP] 192.168.11.3 [Port] 0 [Flags] 2 [Guid] 481051439 [EditorId] 481051439 [Version] 1048832 [Id] OSXEditor(0,YuukinoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56179
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000487 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (34ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (312ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (44.4 KB). Loaded Objects now: 4567.
+Memory consumption went from 257.2 MB to 257.2 MB.
+Total: 2.438958 ms (FindLiveObjects: 0.123084 ms CreateObjectMapping: 0.051416 ms MarkObjects: 2.198917 ms  DeleteObjects: 0.064625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9227.293840 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_disabled.png
+  artifactKey: Guid(af44d7f34e0d54a38bba836d523deb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_disabled.png using Guid(af44d7f34e0d54a38bba836d523deb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4d738f73410dd46fde1f2287724a5b') in 0.436640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonNext.png
+  artifactKey: Guid(d754e841e520b479d94e2616d603a304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonNext.png using Guid(d754e841e520b479d94e2616d603a304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad70f603efee009ebe70b96f22838f9') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/BalloonsIcon.png
+  artifactKey: Guid(8a59aa35e89884a8db727c9858fca1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/BalloonsIcon.png using Guid(8a59aa35e89884a8db727c9858fca1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd110b9a466097d62f1bc4739722e9d1f') in 0.010628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/AnimalBalloonsIcon.png
+  artifactKey: Guid(7ee5486e6268149d1b8cb7877044b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/DecorationButtons/AnimalBalloonsIcon.png using Guid(7ee5486e6268149d1b8cb7877044b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a707cbb40d13a6b1dc6589f1b327b7') in 0.009757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button.png
+  artifactKey: Guid(dae83dd9333fc4e3da141675f6b5e4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button.png using Guid(dae83dd9333fc4e3da141675f6b5e4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bb4dafb32eb35829294fc72ea9a240') in 0.005952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/starInactive.png
+  artifactKey: Guid(06691ef104bdc4ca2ac7c70cba3fdb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/starInactive.png using Guid(06691ef104bdc4ca2ac7c70cba3fdb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7470e19816c6cc6cf8028ebfbb3be68') in 0.007672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_pressed.png
+  artifactKey: Guid(f01e45a1aeb9a4e03a6beae3f0c3e400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/button_pressed.png using Guid(f01e45a1aeb9a4e03a6beae3f0c3e400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab1b49784f8e02bbbb6bf9bc8dfcb7c') in 0.005608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.051587 seconds.
+  path: Assets/Samples/Vivox
+  artifactKey: Guid(c511efef72d0849d0b4cdae58a0f2939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox using Guid(c511efef72d0849d0b4cdae58a0f2939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aaa154a65df9e0513b2c43afd8c000') in 0.001014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.766704 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1
+  artifactKey: Guid(3339c284463e34341a78011dc0352fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1 using Guid(3339c284463e34341a78011dc0352fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f49fa4af44d00549753b3a06f6c742') in 0.001215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.083264 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample
+  artifactKey: Guid(9bf2b2fce622d477180ff2c4cb40cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample using Guid(9bf2b2fce622d477180ff2c4cb40cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8140778321c07e78972af2bcefc516') in 0.001081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547522 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets
+  artifactKey: Guid(745c0cc00aa344286afbb6db4116b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets using Guid(745c0cc00aa344286afbb6db4116b887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac6b248be95e44dd6e7136fffbfb210') in 0.001184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396348 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample
+  artifactKey: Guid(bf388ec97ef4e4036ac09709dba85d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample using Guid(bf388ec97ef4e4036ac09709dba85d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea8b620c5c17fc48fc22b2e6ee7322a') in 0.001343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.340430 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor
+  artifactKey: Guid(4e1764e0a04dab348804b2dbd5d6ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor using Guid(4e1764e0a04dab348804b2dbd5d6ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a81ddf1c421fd9a07c4f6891ab2ed72') in 0.001228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.185165 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef
+  artifactKey: Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef using Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa22dba1732a2fb5e736c633198b56c9') in 0.028620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.662152 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scenes/MainScene.unity
+  artifactKey: Guid(dbc457e6df4234749aff8bd5ffa028ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scenes/MainScene.unity using Guid(dbc457e6df4234749aff8bd5ffa028ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9098834a3f403eafdd53881d2f2a99') in 0.001841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.860478 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scripts
+  artifactKey: Guid(fd9c214f640fae348958e74eaea6f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scripts using Guid(fd9c214f640fae348958e74eaea6f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de02a8f877ce580dbd95eafe31aaced') in 0.001508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.518109 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scripts/ChatChannelSample.asmdef
+  artifactKey: Guid(1951011bf54fef84ab3c895f6cb141a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Scripts/ChatChannelSample.asmdef using Guid(1951011bf54fef84ab3c895f6cb141a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c30d0e1be7a34f93db062ff7d4a457d') in 0.002975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.622709 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Sprites
+  artifactKey: Guid(78415c8d6452baf4db826588249b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Sprites using Guid(78415c8d6452baf4db826588249b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed65323dda58450f37fdb3c833dfe59') in 0.001237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.948652 seconds.
+  path: Packages/com.unity.services.vivox/Editor
+  artifactKey: Guid(1420c91469eca834d87744bfb69326d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor using Guid(1420c91469eca834d87744bfb69326d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659e34cf3411cede2d6a1015e7194640') in 0.001319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.804338 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/GappedOutlineWhite.png
+  artifactKey: Guid(39397d9d4b5f448329396647c2da7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/GappedOutlineWhite.png using Guid(39397d9d4b5f448329396647c2da7593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bea3806e3c63be45d245fb36419d19') in 0.017254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.285548 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonTeamColour.png
+  artifactKey: Guid(272aebfe3b41b401ab184a082fbd203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Shared/buttonTeamColour.png using Guid(272aebfe3b41b401ab184a082fbd203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157cf2b44938c2dd5e0c72cb2dfc3c48') in 0.011626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsOutside.png
+  artifactKey: Guid(5756c16f0426046eabe51834418b086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Textures/UI/Game/ControlsOutside.png using Guid(5756c16f0426046eabe51834418b086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641a286d5159069a3ddfe81ca3049786') in 0.014023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.739038 seconds.
+  path: Packages/com.unity.services.vivox/Editor/Analytics
+  artifactKey: Guid(1c9f2010402ee460e9895e5dca8fdb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor/Analytics using Guid(1c9f2010402ee460e9895e5dca8fdb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e12643cf27d815eaac7c528a257539') in 0.003020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.534287 seconds.
+  path: Packages/com.unity.services.vivox/Editor/Unity.Services.Vivox.Editor.api
+  artifactKey: Guid(39a8657532a124ba1a9a847d9a9f5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor/Unity.Services.Vivox.Editor.api using Guid(39a8657532a124ba1a9a847d9a9f5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c01b50ca9f61dec6ce7d1c668b7c918') in 0.038984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812097 seconds.
+  path: Packages/com.unity.services.vivox/Editor/Unity.Services.Vivox.Editor.asmdef
+  artifactKey: Guid(5148114dff63ca34180a7c20a101f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor/Unity.Services.Vivox.Editor.asmdef using Guid(5148114dff63ca34180a7c20a101f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191cff74c8e878276bec604c4db1c055') in 0.001430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.523597 seconds.
+  path: Packages/com.unity.services.vivox/Editor/UXML
+  artifactKey: Guid(249da578df9b9fe4683bb3bcd69293c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor/UXML using Guid(249da578df9b9fe4683bb3bcd69293c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba73517c4c1728c13300f225d1679a4') in 0.001721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.513778 seconds.
+  path: Packages/com.unity.services.vivox/Editor/Views
+  artifactKey: Guid(075a3ca8860c3ee4cbfd96b4b52b0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Editor/Views using Guid(075a3ca8860c3ee4cbfd96b4b52b0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c194852444b7672c3483541fa06441') in 0.001759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.512183 seconds.
+  path: Packages/com.unity.services.vivox/Plugins/Android
+  artifactKey: Guid(c8d1a2bc5382b80429576ec52437f271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Plugins/Android using Guid(c8d1a2bc5382b80429576ec52437f271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83222919a40cb4c2f8ba384e7df9b72') in 0.001535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.662196 seconds.
+  path: Packages/com.unity.services.vivox/Plugins/iOS
+  artifactKey: Guid(cbd2357198f9f8c4ebbfa30dce5ca06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Plugins/iOS using Guid(cbd2357198f9f8c4ebbfa30dce5ca06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802da33f17f8d805a623436de3de04bc') in 0.001836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803337 seconds.
+  path: Packages/com.unity.services.vivox/Runtime
+  artifactKey: Guid(8637514ad029b8245a4cf89282b89d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Runtime using Guid(8637514ad029b8245a4cf89282b89d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe869a6d85552f9b09fe55bed91fa9a5') in 0.002001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.897457 seconds.
+  path: Packages/com.unity.services.vivox/Third Party Notices.md
+  artifactKey: Guid(8fc716d52c5d76b48b7ea082d438a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/Third Party Notices.md using Guid(8fc716d52c5d76b48b7ea082d438a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a2c9835260de515c96a2b485cb502') in 0.641570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.426520 seconds.
+  path: Packages/com.unity.services.vivox/ValidationExceptions.json
+  artifactKey: Guid(320d37b4cfebf469fae3ca44cb4dca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.vivox/ValidationExceptions.json using Guid(320d37b4cfebf469fae3ca44cb4dca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714e1b6c942ba40b6f1922d4a5e4d517') in 0.404429 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001362 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29a5c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (639ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (21.9 KB). Loaded Objects now: 4588.
+Memory consumption went from 282.9 MB to 282.9 MB.
+Total: 2.513792 ms (FindLiveObjects: 0.167083 ms CreateObjectMapping: 0.052083 ms MarkObjects: 2.275000 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.593639 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef
+  artifactKey: Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef using Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f1c979c8a55dfa5a507d2973b53d8') in 0.006095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.049298 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/Helpers
+  artifactKey: Guid(35596c3c6211af54682c05455d22d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/Helpers using Guid(35596c3c6211af54682c05455d22d395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1843a1bc76d8e5081a7379115922370') in 0.001169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.730157 seconds.
+  path: Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef
+  artifactKey: Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Vivox/15.1.190400-pre.1/Chat Channel Sample/Assets/ChatChannelSample/Editor/ChatChannelSample.Editor.asmdef using Guid(06578f8883fefee4d9477c32bc91d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3763658dea26d563e861e01940537dd9') in 0.000966 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001479 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x292987000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (22.0 KB). Loaded Objects now: 4591.
+Memory consumption went from 283.1 MB to 283.1 MB.
+Total: 2.055709 ms (FindLiveObjects: 0.106459 ms CreateObjectMapping: 0.049208 ms MarkObjects: 1.885042 ms  DeleteObjects: 0.014250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001240 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29279b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (23.0 KB). Loaded Objects now: 4594.
+Memory consumption went from 283.3 MB to 283.3 MB.
+Total: 2.425083 ms (FindLiveObjects: 0.119750 ms CreateObjectMapping: 0.047792 ms MarkObjects: 2.236833 ms  DeleteObjects: 0.020083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001329 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29279b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yuukiyamaguchi/Documents/UnityProject/VoiceCall_Hub/VoiceCall/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (22.1 KB). Loaded Objects now: 4597.
+Memory consumption went from 283.5 MB to 283.5 MB.
+Total: 2.281625 ms (FindLiveObjects: 0.123041 ms CreateObjectMapping: 0.048167 ms MarkObjects: 2.091875 ms  DeleteObjects: 0.018041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
